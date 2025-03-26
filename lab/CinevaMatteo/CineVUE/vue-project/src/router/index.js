@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import ContattiView from '@/views/Contatti.vue'
 import NewsView from '@/views/News.vue'
 import AboutView from '@/views/About.vue'
+import LoginView from '@/views/Login.vue'
 
 
 const router = createRouter({
@@ -34,6 +35,11 @@ const router = createRouter({
       path: '/news',
       name: 'news',
       component: NewsView,
+    },
+    {
+      path: '/login',
+      name: 'login',
+      component: LoginView,
     },
   ],
 })
