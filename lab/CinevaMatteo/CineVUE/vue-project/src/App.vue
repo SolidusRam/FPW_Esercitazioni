@@ -1,12 +1,31 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
+import Header from './components/Header.vue'
+import NavBar from './components/NavBar.vue'
 </script>
 
 <template>
-  <RouterView />
+  <div class="app-container">
+    <Header />
+    <div class="navbar-sticky">
+      <NavBar />
+    </div>
+    <RouterView />
+  </div>
 </template>
 
 <style scoped>
+.app-container {
+  position: relative;
+}
+
+.navbar-sticky {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+
 header {
   line-height: 1.5;
   max-height: 100vh;

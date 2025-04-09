@@ -1,10 +1,8 @@
 <script setup>
-import Header from "@/components/Header.vue";
 import AdminCard from "@/components/AdminCard.vue";
 </script>
 
 <template>
-  <Header />
 
   <main>
     <!-- Titolo principale della pagina About -->

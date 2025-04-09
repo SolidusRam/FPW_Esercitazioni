@@ -1,6 +1,5 @@
 <script setup>
 import { RouterView } from 'vue-router';
-import Header from "@/components/Header.vue";
 import ReviewCard from "@/components/ReviewCard.vue";
 import { ref } from 'vue';
 
@@ -52,8 +51,6 @@ const actors = ref([
 </script>
 
 <template>
-  <Header />
-
   <main class="container">
     <h2>Benvenuto su Cineva</h2>
     <p>Sul sito web <b>Cineva</b> puoi trovare le recensioni dei film più recenti e non solo.</p>

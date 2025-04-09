@@ -1,5 +1,4 @@
 <script setup>
-import Header from "@/components/Header.vue";
 import ReviewCard from "@/components/ReviewCard.vue";
 import { ref } from 'vue';
 
@@ -53,8 +52,6 @@ const upcomingMovies = ref([
 </script>
 
 <template>
-  <Header />
-  
   <main class="container">
     <h2>Ultime Notizie</h2>
     
